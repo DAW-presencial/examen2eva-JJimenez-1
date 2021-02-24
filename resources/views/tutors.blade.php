@@ -11,54 +11,62 @@
 <body>
     <h1>Tutor de l'empresa</h1>
     <h2>Tutor de l'empresa</h2>
-    <div>
-        <label>Empresa:</label>
-        <input class="form control" name="empresa">
-    </div>
-    <div>
-        <label>Tipus document:</label>
-        <input class="form control" name="nombre_empresa">
-    </div>
-    <div>
-        <label>Document identidad:</label>
-        <input class="form control" name="dni">
-    </div>
-    <div>
-        <label>Nom:</label>
-        <input class="form control" name="nom_tutor">
-    </div>
-    <div>
-        <label>Primer llinatge:</label>
-        <input class="form control" name="primer_llinatge">
-    </div>
-    <div>
-        <label>Segon Llinatge:</label>
-        <input class="form control" name="segon_llinatge">
-    </div>
-    <div>
-        <label>Pais document identidad</label>
-        <input class="form control" name="pais_dni">
-    </div>
-    <div>
-        <label>Provincia</label>
-        <input class="form control" name="provincia">
-    </div>
-    <div>
-        <label>Municpi</label>
-        <input class="form control" name="municipi">
-    </div>
-    <div>
-        <label>Estat</label>
-        <input class="form control" name="estat">
-    </div>
-    <div>
-        <label>Telefon</label>
-        <input class="form control" name="telefon">
-    </div>
-    <div>
-        <label>Email</label>
-        <input class="form control" name="email">
-    </div>
+    <form>
+        <div class="form-group">
+            <label for="empresa">Empresa</label>
+            <input type="text" class="form-control" id="empresa" placeholder="Enter empresa">
+        </div>
+        <div class="form-group">
+            <label for="tipus_document">Tipus document </label>
+            <input type="text" class="form-control" id="tipus_document" placeholder="tipus_document">
+        </div>
+        <div class="form-group">
+            <label for="tipus_document">Tipus document </label>
+            <input type="text" class="form-control" id="tipus_document" placeholder="tipus_document">
+        </div>
+        <div class="form-group">
+            <label for="dni">DNI</label>
+            <input type="text" class="form-control" id="dni" placeholder="dni">
+        </div>
+        <div class="form-group">
+            <label for="nom_tutor">Nom</label>
+            <input type="text" class="form-control" id="nom_tutor" placeholder="nom_tutor">
+        </div>
+        <div class="form-group">
+            <label for="primer_llinatge">primer_llinatge</label>
+            <input type="text" class="form-control" id="primer_llinatge" placeholder="primer_llinatge">
+        </div>
+        <div class="form-group">
+            <label for="segon_llinatge">segon_llinatge</label>
+            <input type="text" class="form-control" id="segon_llinatge" placeholder="segon_llinatge">
+        </div>
+        <div class="form-group">
+            <label for="pais_dni">pais_dni</label>
+            <input type="text" class="form-control" id="pais_dni" placeholder="pais_dni">
+        </div>
+        <div class="form-group">
+            <label for="provincia">provincia</label>
+            <input type="text" class="form-control" id="provincia" placeholder="provincia">
+        </div>
+        <div class="form-group">
+            <label for="municipi">municipi</label>
+            <input type="text" class="form-control" id="municipi" placeholder="municipi">
+        </div>
+        <div class="form-group">
+            <label for="estat">estat</label>
+            <input type="text" class="form-control" id="estat" placeholder="estat">
+        </div>
+        <div class="form-group">
+            <label for="telefon">telefon</label>
+            <input type="text" class="form-control" id="telefon" placeholder="telefon">
+        </div>
+        <div class="form-group">
+            <label for="provincia">provincia</label>
+            <input type="text" class="form-control" id="provincia" placeholder="provincia">
+        </div>
+        <button type="submit" class="btn btn-primary">Desa</button>
+        <button type="submit" class="btn btn-primary">Cancel-la</button>
+    </form>
 </body>
 
 </html>

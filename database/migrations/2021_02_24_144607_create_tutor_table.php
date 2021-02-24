@@ -14,7 +14,7 @@ class CreateTutorTable extends Migration
     public function up()
     {
         Schema::create('tutor', function (Blueprint $table) {
-            $table->id()->primary();
+            $table->id();
             $table->string('empresa');
             $table->string('tipus_document');
             $table->string('dni')->unique();

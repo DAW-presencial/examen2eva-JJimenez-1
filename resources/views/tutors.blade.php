@@ -54,7 +54,10 @@
         </div>
         <div class="form-group">
             <label for="estat">estat</label>
-            <input type="text" class="form-control" id="estat" placeholder="estat">
+            <select class="form-control" id="estat">
+                <option>Tutor en activo</option>
+                <option>Tuor inactivo</option>
+            </select>
         </div>
         <div class="form-group">
             <label for="telefon">telefon</label>

@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="{{ asset(mix('css/app.css')) }}" rel="stylesheet">
-    <script src="{{ asset(mix('js/app.js')) }}"></script>
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <script src="{{ asset('js/app.js') }}"></script>
 </head>
 
 <body>
@@ -53,8 +53,9 @@
         <div class="form-group">
             <label for="estat">estat</label>
             <select class="form-control" id="estat">
-                <option>Tutor en activo</option>
-                <option>Tutor inactivo</option>
+            <option value="activo" {{ (old('estado') == "activo") ? "selected" :""}}>Activo</option>
+            <option value="activo">Activo</option>
+            <option value="inactivo" {{ (old('estado') == "inactivo") ? "selected" :""}}>inactivo</option>
             </select>
         </div>
         <div class="form-group">

@@ -8,20 +8,4 @@ use Illuminate\Database\Eloquent\Model;
 class Tutor extends Model
 {
     use HasFactory;
-    protected $table='tutor';
-
-    protected $fillable = [
-        'empresa',
-        'tipus_document',
-        'dni',
-        'nom_tutor',
-        'primer_llinatge',
-        'segon_llinatge',
-        'pais_dni',
-        'provincia',
-        'municipi',
-        'estat',
-        'telefon',
-        'email',
-    ];
 }

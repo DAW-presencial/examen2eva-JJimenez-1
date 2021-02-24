@@ -16,7 +16,7 @@ use App\Http\Controllers\DatosController;
 
 Route::get('/', function () {
 	//return view('welcome');
-	return "Hola picaporte";
+	return view('tutors');
 });
 
 Route::resource('/datos',DatosController::class);
